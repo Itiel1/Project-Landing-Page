@@ -51,14 +51,18 @@ a{
 .Header{
     display: flex;
     padding: 32px;
-    justify-content: center;
-    
+    justify-content: space-between;
+}
+
+.header-links{
+    display:flex;
+    gap: 100px;
 }
 
 .container-1-blue{
     padding: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -71,11 +75,31 @@ a{
 .container-3-gray{
     padding: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .container-4-footer{
     padding: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.call_to_action{
+    font-weight: bold;
+}
+
+.button_one{
+    border-radius: 5px;
+    width: 90px;
+    border: #f9faf8;
+    height: 20px;
+
+}
+.button_two{
+    border-radius: 5px;
+    width: 90px;
+    border-color: #f9faf8;
 }
